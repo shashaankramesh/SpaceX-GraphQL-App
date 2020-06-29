@@ -1,0 +1,20 @@
+{
+  "name": "graphql-apollo-spacex",
+  "version": "1.0.0",
+  "description": "SpaceX launch stats using graphql-apollo",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Shashaank",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
